@@ -286,10 +286,11 @@ body{
     font-family: 'Hubballi', cursive;
     font-family: 'Montserrat', sans-serif;
      }
+/* bouton pour revenir en haut */
 #scrollUp
      {
      position: fixed;
-     bottom : 10px;
-     right: -100px;
+     bottom : 200px;
+     right: 50px;
      opacity: 0.5;
      }
