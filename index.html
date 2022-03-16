@@ -16,44 +16,51 @@
 <body>
 <div class="corps">
     <header>
-        <div class="banner" id="entete"></div>
+        <div class="banner" id="haut"></div>
             <img src="./public/img/bannieremacval.jpg" alt="Macondo kitchen experience" class="banniere">
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d4d3d3;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./public/img/MACFavicon.png" alt="" width="40" height="35" class="d-inline-block align-text-bottom">
-              <span class="textnavbar"> Macondo</span>
+<!--NAVBAR-->    
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d4d3d3;">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+        <img src="/public/img/MACFavicon.png" alt="" width="40" height="35" class="d-inline-block align-text-bottom">
+        <span class="textnavbar"> Macondo</span>
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active mx-1" aria-current="page" href="../../index.html">Home</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Le Restaurant
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="../../index.html#lacuisine">La cuisine</a></li>
+            <li><a class="dropdown-item" href="../../index.html#lequipe">L'équipe</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/public/pages/Info_pratiques.html">Info pratiques</a></li>
+          </ul>
+        </li>
+        </li>
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="/public/pages/Philosophie.html">Philosophie</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contactez-Nous
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active mx-1" aria-current="page" href="#">Home</a>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Le Restaurant
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#lacuisine">La cuisine</a></li>
-                  <li><a class="dropdown-item" href="#lequipe">L'équipe</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./public/pages/Info_pratiques.html">Info pratiques</a></li>
-                </ul>
-              </li>
-              </li>
-              <li class="nav-item mx-1">
-                <a class="nav-link" href="./public/pages/Philosophie.html">Philosophie</a>
-              </li>
-              <li class="nav-item mx-4">
-                <a class="nav-link reservation btn" href="./public/pages/Rerservations.html">Reservations</a>
-              </li>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/Rerservations.html">reservations</a></li>
+              <li><a class="dropdown-item" href="/public/pages/ContactezNous.html">Contactez-Nous</a></li>
             </ul>
-          </div>
-        </div>
-    </nav>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <section class="carousel d-flex justify-content-center">
         <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -87,7 +94,7 @@
           </div>
     </section>
     <section class="restcuisine">
-      <button type="button" class="btn btn-light" href="#entete"> ^ </button>
+      
         <div class="textpara1" >
             <h1 class="titre1 styletitres" id="lacuisine">La Cuisine</h1>
             <p class="paracuisine">Macondo est plus qu'un restaurant, Macondo est une expérience de latino-americaine dans la capitale de l'Union Européenne. Bruxelles accueille ce projet afin d'apporter à cette ville métropolitaine et internationale une expérience gastronomique inspiré de saveurs et techniques de l'Amérique-Latine et dans le but est de rapprocher les bruxellois à cette culture colorée et pleine de joie </p>
@@ -109,6 +116,9 @@
             <p class="para2">Macondo c’est la rencontre de talents, d’experts, de passionnés.</p>
         </div>
     </section>
+    <div id="scrollUp">
+      <a href="#haut"><img src="/public/img/to_top.png"/></a>
+    </div>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
         <img src="./public/img/MACESLOGAN.png" alt="macondo logo" class="macondologo">
         <div class="mx-5 d-flex align-items-center f0">
