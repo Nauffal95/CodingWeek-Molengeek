@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+}
+.hr{
+    margin: 0;
+    border: 2 solid black;
+
+}
+.banniere{
+    height: 250px;
+    width: 100%;
+}
+.textnavbar{
+    color: rgb(177, 135, 58);
+    text-align: end;
+    font-size: larger;
+}
+.reservation:hover{
+    color: white;
+    background-color: gray;
+    
+}
+.carousel{
+    background-color: #e6e6e6;
+}
+.carousel-item{
+    width: auto;
+    height: 500px;
+    margin-top: 50px;
+}
+.restcuisine{
+    height: 600px;
+    width: auto;
+    background-color: rgb(230, 230, 230);
+    display: inline-flex;
+}
+.textpara1{
+    position: relative;
+    top: 140px;
+    left: 440px;
+}
+.titre1{
+    margin-bottom: 20px;
+    font-weight: 800;    
+    }
+.paracuisine{
+    width: 55%;
+    height: auto;
+    text-align:justify;
+    margin-left: 30px;
+    font-weight: 300;
+    }
+.imgtropicale{
+    float: inline-end;
+    position: relative;
+    right: 102px;
+    
+}
+.imgla{
+    position: relative;
+    right: 660px;
+    top: 140px;
+    border-radius: 0% 50%;
+    }
+.equipe{
+    height: auto;
+    width: auto;
+    background-color: rgb(230, 230, 230);
+    display: inline-flex;
+ }
+.equipetitre{
+    color: rgb(177, 135, 58);
+    margin-bottom: 20px;
+    position: relative;
+    top: 50px;
+    left: 440px;
+
+}
+.chef{
+    height:110vh;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left: 0px;
+    color: black;
+}
+.chef1{
+    font-weight: 400;
+    font-style: italic;
+}
+.chef2, .teq{
+    font-weight: 600;
+    color: black;
+}
+.parachef, .para2{
+    width: 700px;
+    height: 100px;
+    font-weight: 300;
+    color: black;
+    }
+.photochef{
+    width: 6cm;
+    border-radius: 50%;
+    border: 4px solid rgb(177, 135, 58);
+    display: inline;
+    position: relative;
+    left: 750px;
+    top: -200px;
+    }
+.notreequipe{
+    height: 50px;
+    display: inline;
+    position: relative;
+    top: 550px;
+    left: -400px;
+ }
+.teq{
+    margin-bottom: 15px;
+    }
+.para2{
+    position: relative;
+    left: -80px;
+    width: 120%;
+    }
+.petiteligne{
+    font-stretch: wider;
+    font-size: larger;
+    color: rgb(177, 135, 58);
+}
+.f0{
+    position:relative;
+    left: -270px;
+    font-size: large;
+}
+.f1, .f0{
+    color: rgb(109, 109, 109);
+}
+.f2{
+    font-size: 50px;
+ }
+.macondologo{
+    margin-left: 10px;
+    width: 20%;
+    height: auto;
+}
+.styletitres{
+    color: rgb(177, 135, 58);
+}
+/*INFO PRATIQUES*/
+.infopratiques{
+    margin-top: 3cm;
+    margin-left: 50px;
+    font-weight: 800;
+}
+.horaires{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.hortext{
+    border-left: 8px solid rgb(177, 135, 58);
+    padding-left: 10px;
+}
+.adresse{
+    font-weight: 600;
+}
+.map{
+    position: relative;
+    left: 350px;
+    border: 1px solid rgb(177, 135, 58);
+    padding: 6px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.gridtitres{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(177, 135, 58);
+}
+.gridtext{
+    border-left: 8px solid rgb(177, 135, 58);
+    padding-left: 10px;
+}
+/*PHILOSOPHIE*/
+.gastronomiedurable{
+    border: 1px solid rgb(177, 135, 58);
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50vh;
+}
+.mphilo{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.gdpara{
+    text-align: left;
+    width: 60%;
+    height: auto;
+    margin-left: 15px;
+    font-weight: 300;
+}
+.gastronomielatino{
+    border: 1px solid rgb(177, 135, 58);
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50vh;
+}
+.glatino{
+    text-align: right;
+    width: 60%;
+    height: auto;
+    position: relative;
+    left: 400px;
+    top: 45px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+.imggd{
+    border-radius: 50%;
+    width: 350px;
+    height: auto;
+    display: inline-flex;
+    position: relative;
+    left: 850px;
+    bottom: 220px;
+}
+.imggl{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 10%;
+    border-top-right-radius: 90%;
+    border-bottom-right-radius: 90% ;
+    width: auto;
+    height: 300px;
+    display: inline-flex;
+    position: relative;
+    left: 125px;
+    bottom: 220px;
+}
+.reservationsform{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.reservationsform1{
+    width: 500px;
+    border: 1px solid rgb(177, 135, 58);
+    border-radius: 10px;
+    padding: 30px;
+}
+.gtstyle{
+    color: rgb(177, 135, 58);
+    font-weight: 700;
+}
+/*Reservations*/
+
+#btncond:active {
+    background-color: rgb(204, 147, 83);
+    border-color: blanchedalmond;
+  }
+#disabledTextInput:focus{
+    background-color: rgb(240, 231, 219);
+}
+.imgcar{
+    border-radius: 10px;
+}
+.plantereservations{
+    width: 300px;
+    position: relative;
+    left: 963px;
+    bottom: 300px;
+}
+/*FONT*/
+.corps, .gridtitres, .gridtext, .gastronomiedurable, .gastronomielatino{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Montserrat', sans-serif;
+     }
