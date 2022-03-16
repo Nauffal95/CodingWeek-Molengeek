@@ -1,8 +1,16 @@
 .formulaire{
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 2%;
 }
 .banniere{
     width: 100%;
+}
+.corpscontact{
+    background-color: rgb(209, 209, 209);
+}
+.textnavbar{
+    color: rgb(177, 135, 58);
+    text-align: end;
+    font-size: larger;
 }
